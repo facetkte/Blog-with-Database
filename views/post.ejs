@@ -1,0 +1,10 @@
+<%- include("partials/header"); -%>
+
+  <h1><%=title%></h1>
+  <p><%=content%></p>
+  <form class="" action="/post" method="post">
+  <input type="hidden" name="newstitle" value="<%=title%>"></input>
+  <button class="btn btn-danger declare" type="submit" name="d-button">Delete Essay</button>
+  </form>
+
+<%- include("partials/footer"); -%>
